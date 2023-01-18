@@ -1,0 +1,27 @@
+{
+  "name": "atvirtual-chatbot-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "jest --silent --verbose --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "jssha": "^3.2.0",
+    "mysql2": "^2.3.3",
+    "request-promise": "^4.2.6",
+    "sequelize": "^6.24.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "supertest": "^6.3.0"
+  }
+}
